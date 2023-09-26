@@ -48,6 +48,13 @@ body {
   background-color: var(--color-dark);
 }
 
+button:disabled,
+button:disabled:hover {
+  background-color: var(--color-light);
+  cursor: not-allowed;
+  border: 1px solid var(--color-medium);
+}
+
 .sidebar ul {
   list-style: none;
   display: flex;
